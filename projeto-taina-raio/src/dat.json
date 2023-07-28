@@ -1,0 +1,46 @@
+[
+    {
+    "id": "1", 
+    "imagem": "/logoreprograma.png",
+    "nome": "{Reprograma}",
+    "link": "https://reprograma.com.br/" 
+    }
+,
+  {
+   "id": "2", 
+    "imagem": "/logominas.png",
+    "nome": "Minas Programam",
+    "link": "https://minasprogramam.com/" 
+    
+    }
+    ,
+    {
+      "id": "3", 
+      "imagem": "/logodt.png",
+      "nome": "Data Girls",
+      "link": "https://www.instagram.com/accounts/suspended/?next=https%3A%2F%2Fwww.instagram.com%2Fdatagirls.neuron%2F%3F__coig_ufac%3D1"  
+    }
+    ,
+    {
+      "id": "4", 
+      "imagem": "/logoprogramaria.png",
+      "nome": "Programaria",
+      "link": "https://www.programaria.org/"   
+    }
+  ,
+  {
+      "id": "5", 
+      "imagem": "/logoelasprogramam.png",
+      "nome": "Elas Programam",
+      "link": "https://www.elasprogramam.com.br/"   
+  }
+  ,
+  {
+      "id": "6", 
+      "imagem": "/logosys.png",
+      "nome": "sysadminas",
+      "link": "https://sysadminas.com.br/"       
+  }
+  ]
+  
+  

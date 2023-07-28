@@ -1,0 +1,23 @@
+.repoContainer{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 3rem;
+    padding: 2em;
+    width: 80%;
+    margin: 0 auto;
+    }
+    
+
+.cardRepo{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 97, 238);
+    padding: 1rem;
+    box-shadow: 0 4px 8px #060101;
+    border-radius: 8px;
+}
+    .cardLink{
+        text-decoration: none;
+    }

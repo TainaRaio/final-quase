@@ -1,0 +1,67 @@
+.form {
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formInput {
+  width: 60%;
+  padding: .6rem 2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  resize: vertical;
+}
+
+.formButton {
+  width: 60%;
+  padding: .6rem 2rem;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formButton:hover {
+  background-color: #4CA;
+}
+
+
+
+/* Estilos para telas Pequenas (até 640px de largura) */
+@media screen and (max-width: 640px) {
+  .form {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .formInput,
+  .formButton {
+    width: 100%;
+  }
+
+  .formButton {
+    margin-top: 0.5rem;
+  }
+}
+
+/* Estilos para telas Médias (641px a 1007px de largura) */
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  .form {
+    height: auto;
+    padding: 1.5rem;
+  }
+}
+
+/* Estilos para telas Grandes (1008px e maiores) */
+@media screen and (min-width: 1008px) {
+  .form {
+    height: 35rem;
+  }
+}

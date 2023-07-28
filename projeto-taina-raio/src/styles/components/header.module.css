@@ -1,0 +1,62 @@
+.headerContainer {
+    
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem; 
+    padding: 6rem;
+  }
+  
+  .headerTitle {
+    font-size: 6rem;
+    color: #474547;
+    margin-top: 40px;
+    
+  }
+  
+  .headerImage {
+    width: 40%;
+    margin-top: 39px;
+  }
+
+  
+/* Estilos para telas Pequenas (até 640px de largura) */
+@media screen and (max-width: 640px) {
+  .headerContainer {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .headerContent {
+    font-size: 0.9rem;
+  }
+}
+
+/* Estilos para telas Médias (641px a 1007px de largura) */
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  .headerContainer {
+    flex-direction: row;
+    padding: 0.5rem;
+  }
+
+  .headerContent {
+    font-size: 1rem;
+  }
+}
+
+/* Estilos para telas Grandes (1008px e maiores) */
+@media screen and (min-width: 1008px) {
+  .headerContainer {
+    flex-direction: row;
+    padding: 0.5rem;
+  }
+
+  .headerContent {
+    font-size: 1.2rem;
+  }
+}
+
+
+

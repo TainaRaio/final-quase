@@ -1,0 +1,48 @@
+[
+    {
+      "id": "1", 
+      "imagem": "/logoeducamais.png",
+      "nome": "Educa Mais Brasil",
+      "link": "https://www.educamaisbrasil.com.br/graduacao" 
+    
+    }
+    ,
+    {
+     "id": "2", 
+      "imagem": "/logoprouni.png",
+      "nome": "ProUni",
+      "link": "https://acessounico.mec.gov.br/" 
+      
+      }
+      ,
+      {
+        "id": "3", 
+        "imagem": "/logoenempng.png",
+        "nome": "Enem",
+        "link": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem"  
+      }
+      ,
+      {
+        "id": "4", 
+        "imagem": "/logofies.png",
+        "nome": "Fies",
+        "link": "https://sisfiesportal.mec.gov.br/"   
+      }
+    ,
+    {
+        "id": "5", 
+        "imagem": "/logopravaler.png",
+        "nome": "Pra Valer",
+        "link": "https://www.pravaler.com.br/interesse/?utm_source=google&utm_medium=cpc&utm_campaign=cprv001_institucional&utm_term=pravaler_exatas&gclid=Cj0KCQjwiIOmBhDjARIsAP6YhSU18LhD6nsOn8xy2NU7FX4I_DxIH_v4MJC4sSVJVrg9iu5X7x74bKIaAhaWEALw_wcB"   
+    }
+    ,
+    {
+        "id": "6", 
+        "imagem": "/logoquero.svg",
+        "nome": "Quero Bolsa",
+        "link": "https://querobolsa.com.br/?utm_source=google&utm_medium=cpc&utm_keyword=quero%20bolsa&utm_campaign=Institucional_Institucional&gclid=Cj0KCQjwiIOmBhDjARIsAP6YhSW4zEra93L2z44xXBqO7DOGBFIk1v1F-t9qUdH1kv-Lx8Ui-57TueoaAtT1EALw_wcB"       
+    }
+    
+    ]
+    
+      

@@ -1,0 +1,148 @@
+.taiImage{
+    width: 50rem;
+    offset-distance: 100px;
+    margin-left: 0%;
+    margin-top: 0px;
+
+
+}
+
+#cursosMenu{
+    background-color: black;
+}
+
+.sobreContainer{
+
+    display: flex;
+    justify-content: end;
+    padding-right: 0px;
+}
+
+.cardNome{
+
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 2rem;
+    color: #FFC0CB;
+    margin-top: 150px;
+}
+
+.cardParagrafo{
+    color: rgb(27, 25, 28);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: justify;
+}
+
+.textContainer{
+    width: 30rem
+
+}
+
+.containerCursos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 50%;
+    justify-content: center;
+}
+.cardCursos{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color:#FFC0CB;
+    box-shadow: 0 2px 4px #b3b1b4;
+    padding: 1rem;
+}
+
+
+.h1{
+    text-align: center;
+}
+
+.cardLink{
+    text-decoration: none;
+    color: #1a1717;
+}
+
+.cardImage{
+    width: 200px;
+    /* height: 10rem; */
+}
+
+
+/* Estilos para telas Médias (641px a 1007px de largura) */
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+    .taiImage {
+        width: 40rem;
+        offset-distance: 0;
+    }
+
+    .containerCursos {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+}
+
+/* Estilos para telas Grandes (1008px e maiores) */
+@media screen and (min-width: 1008px) {
+    .containerCursos {
+        grid-template-columns: repeat(2, 1fr);
+        width: 50%;
+    }
+}
+
+/* Estilos para telas Pequenas (até 640px de largura) */
+@media screen and (max-width: 640px) {
+    .taiImage {
+        width: 100%;
+        offset-distance: 0;
+        margin: 0;
+    }
+
+    .cardNome {
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+
+    .textContainer {
+        width: 100%;
+    }
+
+    .containerCursos {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+}
+
+/* Estilos para telas Médias (641px a 1007px de largura) */
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+    .taiImage {
+        width: 40rem;
+        offset-distance: 0;
+    }
+
+    .containerCursos {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+/* Estilos para telas Grandes (1008px e maiores) */
+@media screen and (min-width: 1008px) {
+    .containerCursos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,113 @@
+
+
+
+.taiImage{
+    width: 40%;
+    offset-distance: 100px;
+   
+    
+}
+
+.sobreContainer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cardNome{
+    
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 2rem;
+    color:#FFC0CB;
+}
+
+.cardParagrafo{
+    color: rgb(29, 28, 33);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: justify;
+}
+
+.textContainer{
+    width: 30rem
+    
+}
+
+.imgSobre{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 10rem;
+ padding-top: 0%;
+ width: 100%;
+ size: cover;
+ padding-left: 0%;
+ padding-right: 0%;
+
+}
+
+/* Estilos para telas Pequenas (até 640px de largura) */
+@media screen and (max-width: 640px) {
+    .sobreContainer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .taiImage {
+      width: 100%;
+      offset-distance: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .textContainer {
+      width: 100%;
+    }
+  
+    .imgSobre {
+      flex-direction: column;
+      gap: 1rem;
+      padding: 5rem 1rem;
+    }
+  }
+  
+  /* Estilos para telas Médias (641px a 1007px de largura) */
+  @media screen and (min-width: 641px) and (max-width: 1007px) {
+    .sobreContainer {
+      flex-direction: row;
+      gap: 2rem;
+      padding: 1rem;
+    }
+  
+    .taiImage {
+      width: 30%;
+      offset-distance: 0;
+    }
+  
+    .textContainer {
+      width: 50%;
+    }
+  
+    .imgSobre {
+      gap: 2rem;
+      padding: 5rem;
+    }
+  }
+  
+  /* Estilos para telas Grandes (1008px e maiores) */
+  @media screen and (min-width: 1008px) {
+    .imgSobre {
+      padding: 10rem;
+    }
+  }

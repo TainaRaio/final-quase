@@ -1,0 +1,49 @@
+.footerContainer {
+  background-color: #ec86dd;
+  /* padding: o.5rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerContent {
+  color: #fff;
+  font-size: 1rem;
+}
+
+
+/* Estilos para telas Pequenas (até 640px de largura) */
+@media screen and (max-width: 640px) {
+  .footerContainer {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .footerContent {
+    font-size: 0.9rem;
+  }
+}
+
+/* Estilos para telas Médias (641px a 1007px de largura) */
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  .footerContainer {
+    flex-direction: row;
+    padding: 0.5rem;
+  }
+
+  .footerContent {
+    font-size: 1rem;
+  }
+}
+
+/* Estilos para telas Grandes (1008px e maiores) */
+@media screen and (min-width: 1008px) {
+  .footerContainer {
+    flex-direction: row;
+    padding: 0.5rem;
+  }
+
+  .footerContent {
+    font-size: 1.2rem;
+  }
+}
